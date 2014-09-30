@@ -1,0 +1,3 @@
+megalo_redirect_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MegaloRedirectBundle:Default:index }

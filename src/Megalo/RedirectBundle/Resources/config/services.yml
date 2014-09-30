@@ -1,0 +1,9 @@
+parameters:
+#    megalo_redirect.example.class: Megalo\RedirectBundle\Example
+
+services:
+    kernel.listener.solicit:
+        class: Megalo\RedirectBundle\Listener\redirectListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.response, method: onKernelSolicitation }
+

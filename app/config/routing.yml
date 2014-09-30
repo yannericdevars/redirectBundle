@@ -1,0 +1,4 @@
+megalo_redirect:
+    resource: "@MegaloRedirectBundle/Resources/config/routing.yml"
+    prefix:   /
+
