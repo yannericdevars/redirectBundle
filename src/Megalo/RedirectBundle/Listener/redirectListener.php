@@ -2,12 +2,10 @@
 
 namespace Megalo\RedirectBundle\Listener;
 
-use \Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
 /**
  * Redirige les utilisateurs selon la liste des redirections
  */
-class redirectListener extends Controller
+class redirectListener
 {
 
   /**
